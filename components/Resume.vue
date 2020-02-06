@@ -69,7 +69,7 @@
         <strong>Kin+Carta (former AmazeRealise) - Mar 2018 - Mar 2020</strong>
         <p><span class="speed">Front end developer</span></p>
         <p>At AmazeRealise I had a great pleasure of working on much bigger client projects including: Expedia, Lexus, Unilever, Lloyds Banking Group, Franklin Templeton, Heathrow airport and many more. I have gained a lot of front end knowledge thanks to project variety and a great supportive team.</p>
-        <p>Tech stack: NPM, Gulp, Grunt, CSS, SASS (BEM), Vue.js, Nuxt.js, Vuex, Angular, React, React Native, GIT, SVN</p>
+        <p>Tech stack: NPM, Gulp, Grunt, CSS, SASS (BEM), JavaScript (ES6), Redux, Firestore, Contentful, Vue.js, Nuxt.js, Vuex, Angular, React, React Native, GIT, SVN</p>
       </article>
     </section>
 

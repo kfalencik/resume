@@ -21,6 +21,7 @@ export default {
     background: $white;
     height: 80vh;
     box-shadow: inset 0 0 20px $black;
+    border: 10px solid #fff;
     display: flex;
     justify-content: center;
     overflow: auto;

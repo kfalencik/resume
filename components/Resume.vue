@@ -88,6 +88,8 @@
 
     <p><img src="~/assets/images/loading.png" width="140" role="presentation" alt="" />
     <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
   </div>
 </template>
 

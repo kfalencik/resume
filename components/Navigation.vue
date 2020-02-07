@@ -1,6 +1,6 @@
 <template>
   <nav class="menu">
-    <a :href="'#' + item.section" class="menu__item" :class="{'menu__item--active': active === item.section}" v-for="(item, index) in menu" :key="index" @click.stop.prevent="slideTo(item.section)">{{item.title}}</a>
+    <a :section="item.section" class="menu__item" :class="{'menu__item--active': active === item.section}" v-for="(item, index) in menu" :key="index" @click.stop.prevent="slideTo(item.section)">{{item.title}}</a>
   </nav>
 </template>
 
@@ -21,12 +21,29 @@ export default {
   },
   methods: {
     slideTo(section) {
-      const container = document.querySelector(".modal")
-      const sectionContainer = document.querySelector("[section='" + section +"']");
-      sectionContainer.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-
+      const container = document.querySelector('.modal')
+      const sectionContainer = document.querySelector('section[section="' + section + '"]');
+      sectionContainer.scrollIntoView({behavior: 'smooth', block: 'start', inline: 'nearest'});
       this.active = section;
     }
+  },
+  mounted() {
+    const container = document.querySelector('.modal')
+    const navLinks = document.querySelectorAll(".menu a");
+
+    container.addEventListener('scroll', event => {
+      let fromTop = container.scrollTop;
+
+      navLinks.forEach(link => {
+        const section = link.getAttribute('section');
+        let sectionContainer = document.querySelector('section[section="' + section + '"]');
+
+        console.log(sectionContainer.getBoundingClientRect().top);
+        if (sectionContainer.offsetTop <= fromTop && sectionContainer.offsetTop + sectionContainer.offsetHeight > fromTop) {
+          this.active = section;
+        }
+      });
+    });
   }
 }
 </script>
@@ -49,8 +66,9 @@ export default {
       padding: 5px 10px;
       color: $white;
       text-decoration: none;
+      transition: all 0.5s ease;
 
-      &--active {
+      &--active, &:hover, &:focus {
         color: $yellow;
       }
     }

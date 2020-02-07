@@ -88,13 +88,17 @@
     </section>
 
     <div class="resume__social">
+      <a href="https://www.linkedin.com/in/kevin-falencik-3026696a/" target="_blank" rel="noopener">
+        <img src="~/assets/images/linkedin.svg" width="40" role="presentation" alt="" />
+        <strong>My LinkedIn</strong>
+      </a>
       <a href="https://codepen.io/kfalencik" target="_blank" rel="noopener">
         <img src="~/assets/images/codepen.png" width="40" role="presentation" alt="" />
         <strong>My Codepen</strong>
       </a>
-      <a href="https://www.linkedin.com/in/kevin-falencik-3026696a/" target="_blank" rel="noopener">
-        <img src="~/assets/images/linkedin.svg" width="40" role="presentation" alt="" />
-        <strong>My LinkedIn</strong>
+      <a href="https://open.spotify.com/user/1166940607?si=9jH197x5TaWumRvzb0dtTw" target="_blank" rel="noopener">
+        <img src="~/assets/images/spotify.png" width="40" role="presentation" alt="" />
+        <strong>My Spotify</strong>
       </a>
     </div>
     <p>&nbsp;</p>
@@ -170,7 +174,7 @@ export default {
       justify-content: center;
 
       a {
-        margin: 0 20px;
+        margin: 0 10px;
         font-weight: bold;
         color: $black;
         text-decoration: none;

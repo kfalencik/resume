@@ -20,7 +20,7 @@
         <li v-for="(row, index) in hobbies" :key="index"><span v-html="row.value"></span></li>
       </ul>
 
-      <p>You can download my full <a href="/Kevin Falencik - CV 2020.pdf" target="_blank" class="speed">CV here</a></p>
+      <p>You can download my full <a href="/Kevin Falencik - CV 2020.pdf" target="_blank" class="speed">CV here</a>.</p>
     </section>
 
     <section section="story">

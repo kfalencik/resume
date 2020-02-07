@@ -83,7 +83,6 @@
       <p>To achieve this <strike>monstrosity</strike> beautiful looking site I have used <span class="speed">Nuxt.js</span> framework which I love using for pretty much all of my side projects. Nuxt.js is sort of a Vue.js on steroids. It contains pretty much everything you need to create a Vue.js website including routing, a store that you can use to easily send and receive data beteen components, development server and also server-side rendering which is great for SEO!</p>
       <p>For styling I'm using <span class="speed">SASS</span>, and <span class="speed">BEM</span> naming convention for my class names. In terms of back-end, well this is all handled by <span class="speed">Netlify</span> and deployed using <span class="speed">Github</span> - no server required (yay).</p>
       <p>The very nice dynamic marble effect background uses some black SVG <span class="speed">magic</span> and to be honest with you I have no idea how it actually works.</p>
-      <p>Fun fact, no media queries were used when developing this site.</p>
       <p>That's all, <span class="speed">BYE!</span></p>
     </section>
 

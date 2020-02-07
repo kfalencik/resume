@@ -27,5 +27,9 @@ export default {
     display: flex;
     justify-content: center;
     overflow: auto;
+
+    @media (max-width: $breakpoint-sm) {
+      width: 100%;
+    }
   }
 </style>

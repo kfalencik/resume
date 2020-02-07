@@ -61,6 +61,10 @@ export default {
     position: relative;
     z-index: 50;
 
+    @media (max-width: $breakpoint-sm) {
+      width: 100%;
+    }
+
     &__item {
       cursor: pointer;
       padding: 5px 10px;

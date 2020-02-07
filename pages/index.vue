@@ -30,5 +30,9 @@ export default {
     justify-content: center;
     height: 100vh;
     width: 100%;
+
+    @media (max-width: $breakpoint-sm) {
+      display: block;
+    }
   }
 </style>

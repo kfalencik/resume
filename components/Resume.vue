@@ -7,6 +7,7 @@
       <p>I created this <span class="speed">resume</span> especially for <strike>myself</strike> <strong>you!</strong> <strike> so I can BRAG</strike> so you can learn about me.</p>
       <p>I Hope you find everything you would like to know but if you <span class="speed">still have any questions</span> drop me a <a class="speed" href="mailto:kfalencik@gmail.com">message</a>. There is more information at the bottom about how the site works if you want to check it out.</p>
       <p>* highlighted, in <span class="speed">yellow</span>, for speed-reading.</p>
+      <img src="~/assets/images/loading.png" width="140" role="presentation" alt="" />
     </section>
 
     <section section="about">
@@ -86,8 +87,16 @@
       <p>That's all, <span class="speed">BYE!</span></p>
     </section>
 
-    <p><img src="~/assets/images/loading.png" width="140" role="presentation" alt="" />
-    <p>&nbsp;</p>
+    <div class="resume__social">
+      <a href="https://codepen.io/kfalencik" target="_blank" rel="noopener">
+        <img src="~/assets/images/codepen.png" width="40" role="presentation" alt="" />
+        <strong>My Codepen</strong>
+      </a>
+      <a href="https://www.linkedin.com/in/kevin-falencik-3026696a/" target="_blank" rel="noopener">
+        <img src="~/assets/images/linkedin.svg" width="40" role="presentation" alt="" />
+        <strong>My LinkedIn</strong>
+      </a>
+    </div>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
   </div>
@@ -152,6 +161,20 @@ export default {
     img {
       display: block;
       margin: 0.5em auto;
+    }
+
+    &__social {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+
+      a {
+        margin: 0 20px;
+        font-weight: bold;
+        color: $black;
+        text-decoration: none;
+      }
     }
   }
 </style>

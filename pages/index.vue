@@ -33,6 +33,7 @@ export default {
 
     @media (max-width: $breakpoint-sm) {
       display: block;
+      height: 100%;
     }
   }
 </style>

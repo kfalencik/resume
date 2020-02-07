@@ -21,7 +21,7 @@ export default {
     width: 90%;
     max-width: $breakpoint-lg;
     background: $white;
-    height: 80vh;
+    height: calc(80vh - 50px);
     box-shadow: inset 0 0 20px $black;
     border: 10px solid #fff;
     display: flex;

@@ -41,6 +41,8 @@ export default {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    position: relative;
+    z-index: 50;
 
     &__item {
       cursor: pointer;

@@ -175,10 +175,17 @@ export default {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: -1;
+  z-index: 1;
+  box-shadow: inset 0 0 50px $black;
+
+  @supports (-ms-ime-align:auto) {
+    .selector {
+        filter: blur(10px);
+    }
+  }
 
   &::after {
-    box-shadow: inset 0 0 70px #000000;
+    box-shadow: inset 0 0 70px $black;
     content: '';
     display: block;
     position: absolute;
@@ -189,7 +196,7 @@ export default {
     bottom: 0;
 
     @media (max-width: $breakpoint-md) {
-        box-shadow: inset 0 0 150px #000000;
+        box-shadow: inset 0 0 150px $black;
     }
   }
 
@@ -197,7 +204,7 @@ export default {
     width: 500px;
     max-width: 90%;
     height: 250px;
-    background: #fff;
+    background: $white;
     color: #000;
     display: flex;
     justify-content: center;
@@ -230,7 +237,7 @@ export default {
     overflow:hidden;
     margin: 0;
     padding: 0px;
-    background-color: black;
+    background-color: $black;
     filter:blur(5px) url(#svgFilter);
 	}
 }

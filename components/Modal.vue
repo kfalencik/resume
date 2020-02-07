@@ -16,6 +16,8 @@ export default {
 
 <style lang="scss" scoped>
   .modal {
+    z-index: 9999;
+    position: relative;
     width: 90%;
     max-width: $breakpoint-lg;
     background: $white;

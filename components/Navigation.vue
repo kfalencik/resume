@@ -1,6 +1,6 @@
 <template>
   <nav class="menu">
-    <span class="menu__item" :class="{'menu__item--active': active === item.section}" v-for="(item, index) in menu" :key="index" @click="slideTo(item.section)">{{item.title}}</span>
+    <a :href="'#' + item.section" class="menu__item" :class="{'menu__item--active': active === item.section}" v-for="(item, index) in menu" :key="index" @click.stop.prevent="slideTo(item.section)">{{item.title}}</a>
   </nav>
 </template>
 
@@ -22,8 +22,8 @@ export default {
   methods: {
     slideTo(section) {
       const container = document.querySelector(".modal")
-      const sectionContainer = document.querySelector("[section='" + section +"']").offsetTop - 120;
-      container.scrollTo({ top: sectionContainer, behavior: 'smooth'});
+      const sectionContainer = document.querySelector("[section='" + section +"']");
+      sectionContainer.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 
       this.active = section;
     }
@@ -45,6 +45,8 @@ export default {
     &__item {
       cursor: pointer;
       padding: 5px 10px;
+      color: $white;
+      text-decoration: none;
 
       &--active {
         color: $yellow;

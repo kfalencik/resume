@@ -53,12 +53,12 @@
     <section section="experience">
       <h3 class="h3">Experience.</h3>
       <img src="~/assets/images/search.png" width="140" role="presentation" alt="" />
-      
+
       <article>
-        <strong>Droptica (former Advanteo) - Nov 2011 - Jan 2013</strong>
-        <p><span class="speed">Junior Developer</span></p>
-        <p>Full-stack remote role. This involved mainly <span class="speed">developing and maintaining small to medium-sized Drupal sites</span>. I was responsible for both the back and front-end of websites as well as communication with the client.</p>
-        <p>Tech stack: PHP5, Drupal 6 & 7, CSS, SASS, GIT, LAMP, MySQL, jQuery, Linux</p>
+        <strong>Kin+Carta (former AmazeRealise) - Mar 2018 - Mar 2020</strong>
+        <p><span class="speed">Front end developer</span></p>
+        <p>At AmazeRealise I had the great pleasure of working on much bigger client projects including Expedia, Lexus, Unilever, Lloyds Banking Group, Franklin Templeton, Heathrow airport and many more. I have gained a lot of front end knowledge thanks to project variety and a great supportive team.</p>
+        <p>Tech stack: NPM, Gulp, Grunt, CSS, SASS (BEM), JavaScript (ES6), Redux, Firestore, Contentful, Vue.js, Nuxt.js, Vuex, Angular, React, React Native, GIT, SVN</p>
       </article>
 
       <article>
@@ -67,13 +67,13 @@
         <p>My first job after moving to Edinburgh. Thanks to the small size of the agency I was involved in a great number of very <span class="speed">creative and innovative</span> projects. My role in the company has changed throughout the years, starting as a contractor, being a junior developer and ending with the role of a lead developer. I developed web applications using Drupal 7 and Wordpress but also managed a small team of developers. This role involved maintaining constant communication with the client via email and phone.</p>
         <p>Tech stack: PHP 5 & 7, Drupal 7, Wordpress, CSS, SASS, GIT, WAMP, LAMP, MySQL, jQuery, AcquiaDevTools</p>
       </article>
-
+      
       <article>
-        <strong>Kin+Carta (former AmazeRealise) - Mar 2018 - Mar 2020</strong>
-        <p><span class="speed">Front end developer</span></p>
-        <p>At AmazeRealise I had the great pleasure of working on much bigger client projects including Expedia, Lexus, Unilever, Lloyds Banking Group, Franklin Templeton, Heathrow airport and many more. I have gained a lot of front end knowledge thanks to project variety and a great supportive team.</p>
-        <p>Tech stack: NPM, Gulp, Grunt, CSS, SASS (BEM), JavaScript (ES6), Redux, Firestore, Contentful, Vue.js, Nuxt.js, Vuex, Angular, React, React Native, GIT, SVN</p>
-      </article>
+        <strong>Droptica (former Advanteo) - Nov 2011 - Jan 2013</strong>
+        <p><span class="speed">Junior Developer</span></p>
+        <p>Full-stack remote role. This involved mainly <span class="speed">developing and maintaining small to medium-sized Drupal sites</span>. I was responsible for both the back and front-end of websites as well as communication with the client.</p>
+        <p>Tech stack: PHP5, Drupal 6 & 7, CSS, SASS, GIT, LAMP, MySQL, jQuery, Linux</p>
+      </article>      
     </section>
 
     <section section="outro">

@@ -38,7 +38,6 @@ export default {
         const section = link.getAttribute('section');
         let sectionContainer = document.querySelector('section[section="' + section + '"]');
 
-        console.log(sectionContainer.getBoundingClientRect().top);
         if (sectionContainer.offsetTop <= fromTop && sectionContainer.offsetTop + sectionContainer.offsetHeight > fromTop) {
           this.active = section;
         }

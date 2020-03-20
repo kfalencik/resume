@@ -76,6 +76,8 @@
       </article>      
     </section>
 
+    <Gallery />
+
     <section section="outro">
       <h3 class="h3">Outro.</h3>
 
@@ -90,6 +92,10 @@
       <a href="https://www.linkedin.com/in/kevin-falencik-3026696a/" target="_blank" rel="noopener">
         <img src="~/assets/images/linkedin.svg" width="40" role="presentation" alt="" />
         <strong>My LinkedIn</strong>
+      </a>
+      <a href="https://github.com/kfalencik" target="_blank" rel="noopener">
+        <img src="~/assets/images/github.png" width="40" role="presentation" alt="" />
+        <strong>My Github</strong>
       </a>
       <a href="https://codepen.io/kfalencik" target="_blank" rel="noopener">
         <img src="~/assets/images/codepen.png" width="40" role="presentation" alt="" />
@@ -108,6 +114,8 @@
 </template>
 
 <script>
+import Gallery from './Gallery';
+
 export default {
   data() {
     return {
@@ -134,6 +142,9 @@ export default {
         { label: "University (unfinished, 4 months)", value: "- Univeristy of Gdansk, Poland"}
       ]
     }
+  },
+  components: {
+    Gallery
   },
   computed: {
     age() {

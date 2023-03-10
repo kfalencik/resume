@@ -55,6 +55,13 @@
       <img src="~/assets/images/search.png" width="140" role="presentation" alt="" />
 
       <article>
+        <strong>Staff Circle - Jul 2020 - Present</strong>
+        <p><span class="speed">Senior Front end developer</span></p>
+        <p>Staff Circle's mission is to help companies transform employee success by combining engagement, performance management & culture. It's the first start up I have worked with. </p>
+        <p>Tech stack: Webpack, Vue.js 2 + 3, Vuex, TypeScript, SASS (BEM), JavaScript (ES6), GIT</p>
+      </article>
+
+      <article>
         <strong>Kin+Carta (former AmazeRealise) - Mar 2018 - Mar 2020</strong>
         <p><span class="speed">Front end developer</span></p>
         <p>At AmazeRealise I had the great pleasure of working on much bigger client projects including Expedia, Lexus, Unilever, Lloyds Banking Group, Franklin Templeton, Heathrow airport and many more. I have gained a lot of front end knowledge thanks to project variety and a great supportive team.</p>
@@ -82,9 +89,9 @@
       <h3 class="h3">Outro.</h3>
 
       <p><span class="speed">Thank you</span> for visiting my page. I would like to shortly talk about the tools I used to create <span class="speed">this website</span>.</p>
-      <p>To achieve this <strike>monstrosity</strike> beautiful looking site I have used <span class="speed">Nuxt.js</span> framework which I love using for pretty much all of my side projects. Nuxt.js is sort of a Vue.js on steroids. It contains pretty much everything you need to create a Vue.js website including routing, a store that you can use to easily send and receive data beteen components, development server and also server-side rendering which is great for SEO!</p>
+      <p>To achieve this <strike>monstrosity</strike> beautiful looking site I have used <span class="speed">Nuxt.js</span> framework, which I love using for most of my side projects. Nuxt.js is sort of a Vue.js on steroids. It contains pretty much everything you need to create a Vue.js website including routing, a store that you can use to easily send and receive data beteen components, development server and also server-side rendering which is great for SEO!</p>
       <p>For styling I'm using <span class="speed">SASS</span>, and <span class="speed">BEM</span> naming convention for my class names. In terms of back-end, well this is all handled by <span class="speed">Netlify</span> and deployed using <span class="speed">Github</span> - no server required (yay).</p>
-      <p>The very nice dynamic marble effect background uses some black SVG <span class="speed">magic</span> and to be honest with you I have no idea how it actually works.</p>
+      <p>The very nice dynamic marble effect background uses some SVG <span class="speed">magic</span> and a blur effect, but to be honest with you, I have no idea how it actually works.</p>
       <p>That's all, <span class="speed">BYE!</span></p>
     </section>
 
@@ -123,23 +130,22 @@ export default {
       info: [
         { label: "Name", value: "<span class='speed'>Kevin Steven Falencik</span>" },
         { label: "Birth", value: "27th Feb 1991, Berlin Neukölln" },
-        { label: "Current address", value: "67 Lorne Street, Edinburgh, Scotland" },
         { label: "Contact", value: "<span class='speed'>kfalencik@gmail.com</span> or +44 7961276427" },
       ],
       hobbies: [
-        { value: "Listen to music" },
+        { value: "Music" },
         { value: "Cycle" },
-        { value: "Play guitar" },
+        { value: "Guitar" },
         { value: "Movies and books" },
         { value: "Art galleries" },
         { value: "Video and board games" },
         { value: "Doodle and tattoos" },
       ],
       education: [
-        { label: "Primary school (6 years)", value: "- Tczew, Poland" },
-        { label: "Lower-secondary school (3 years)", value: "Gimnazjum number 1, Tczew, Poland"},
-        { label: "Technical school (4 years)", value: "- Complex of technology and communication schools, Gdansk, Poland"},
-        { label: "University (unfinished, 4 months)", value: "- Univeristy of Gdansk, Poland"}
+      { label: "University (unfinished, 4 months)", value: "- Univeristy of Gdansk, Poland"},
+      { label: "Technical school (4 years)", value: "- Complex of technology and communication schools, Gdansk, Poland"},
+      { label: "Lower-secondary school (3 years)", value: "Gimnazjum number 1, Tczew, Poland"},
+      { label: "Primary school (6 years)", value: "- Tczew, Poland" }
       ]
     }
   },

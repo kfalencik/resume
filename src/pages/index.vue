@@ -1,20 +1,3 @@
-<script setup lang="ts">
-const title = ref("Kevin Falencik - Digital Resume");
-const description = ref("A digital resume/cv page for bragging about my achievements on the interwebs.");
-useHead({
-  title,
-  meta: [
-    {
-      name: "description",
-      content: description,
-    },
-    { charset: "utf-8" },
-    { name: "viewport", content: "width=device-width, initial-scale=1" },
-  ],
-  link: [{ rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Lato|Pirata+One&display=swap" }],
-});
-</script>
-
 <template>
   <section class="page">
     <h1 class="sr-only">Kevin Falencik - Resume</h1>

@@ -34,7 +34,7 @@ const age = computed(() => {
 <template>
   <div class="resume">
     <section class="resume__intro" section="intro">
-      <nuxt-img src="/lightning.png" width="100" role="presentation" alt="" />
+      <img src="~assets/images/lightning.png" width="100" role="presentation" alt="" />
       <h2 class="h2">Hi! I'm Kevin Falencik</h2>
       <p>
         I'm a {{ age }} years old, Polish <del>bug</del>
@@ -51,7 +51,7 @@ const age = computed(() => {
         how the site works if you want to check it out.
       </p>
       <p>* highlighted, in <span class="speed">yellow</span>, for speed-reading.</p>
-      <nuxt-img src="/loading.png" width="140" role="presentation" alt="" />
+      <img src="~assets/images/loading.png" width="140" role="presentation" alt="" />
     </section>
 
     <section section="about">
@@ -72,7 +72,7 @@ const age = computed(() => {
 
     <section section="story">
       <h3 class="h3">My story.</h3>
-      <nuxt-img src="/lightbulb.png" width="120" role="presentation" alt="" />
+      <img src="~assets/images/lightbulb.png" width="120" role="presentation" alt="" />
       <p>
         Shortly after I was born my parents decided to move back to Poland, where I spent most of my life.
         <span class="speed">Growing up</span> I remember always being very curious about computers and how they work. I
@@ -84,7 +84,7 @@ const age = computed(() => {
         <span class="speed">my curiosity grew even larger</span>.
       </p>
 
-      <nuxt-img src="/arrow.png" width="100" role="presentation" alt="" />
+      <img src="~assets/images/arrow.png" width="100" role="presentation" alt="" />
       <p>
         Not long after this incident, my parents had a great idea to send me to one of those
         <span class="speed">"Learn how to use the computer"</span> courses which consisted mainly of me playing the
@@ -102,7 +102,7 @@ const age = computed(() => {
         <span class="speed">one of the best technical schools in Poland</span> that offered IT courses.
       </p>
 
-      <nuxt-img src="/book.png" width="120" role="presentation" alt="" />
+      <img src="~assets/images/book.png" width="120" role="presentation" alt="" />
       <p>
         To be very honest, <span class="speed">I didn't learn much</span> there. Although it WAS a good school, IT
         knowledge I got from it was mostly general or <span class="speed">not relevant to web technologies</span>. The
@@ -119,7 +119,7 @@ const age = computed(() => {
         <span class="speed">drop-out</span> and continue gaining experience at my job.
       </p>
 
-      <nuxt-img src="/paperplane.png" width="120" role="presentation" alt="" />
+      <img src="~assets/images/paperplane.png" width="120" role="presentation" alt="" />
       <p>
         The idea of moving countries came out of nowhere really. I had a good, steady job, I had my friends, I was happy
         but my <span class="speed">natural curiosity</span> was telling me to
@@ -133,7 +133,7 @@ const age = computed(() => {
 
     <section section="education">
       <h3 class="h3">Education.</h3>
-      <nuxt-img src="/backpack.png" width="140" role="presentation" alt="" />
+      <img src="~assets/images/backpack.png" width="140" role="presentation" alt="" />
       <ul>
         <li v-for="(row, index) in data.education" :key="index">
           <strong>{{ row.label }}:</strong> <span v-html="row.value"></span>
@@ -143,7 +143,7 @@ const age = computed(() => {
 
     <section section="experience">
       <h3 class="h3">Experience.</h3>
-      <nuxt-img src="/search.png" width="140" role="presentation" alt="" />
+      <img src="~assets/images/search.png" width="140" role="presentation" alt="" />
 
       <article>
         <strong>Staff Circle - Jul 2020 - Present</strong>
@@ -224,19 +224,19 @@ const age = computed(() => {
 
     <div class="resume__social">
       <a href="https://www.linkedin.com/in/kevin-falencik-3026696a/" target="_blank" rel="noopener">
-        <nuxt-img src="/linkedin.svg" width="40" role="presentation" alt="" />
+        <img src="~assets/images/linkedin.svg" width="40" role="presentation" alt="" />
         <strong>My LinkedIn</strong>
       </a>
       <a href="https://github.com/kfalencik" target="_blank" rel="noopener">
-        <nuxt-img src="/github.png" width="40" role="presentation" alt="" />
+        <img src="~assets/images/github.png" width="40" role="presentation" alt="" />
         <strong>My Github</strong>
       </a>
       <a href="https://codepen.io/kfalencik" target="_blank" rel="noopener">
-        <nuxt-img src="/codepen.png" width="40" role="presentation" alt="" />
+        <img src="~assets/images/codepen.png" width="40" role="presentation" alt="" />
         <strong>My Codepen</strong>
       </a>
       <a href="https://open.spotify.com/user/1166940607?si=9jH197x5TaWumRvzb0dtTw" target="_blank" rel="noopener">
-        <nuxt-img src="/spotify.png" width="40" role="presentation" alt="" />
+        <img src="~assets/images/spotify.png" width="40" role="presentation" alt="" />
         <strong>My Spotify</strong>
       </a>
     </div>

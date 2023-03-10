@@ -38,7 +38,7 @@ export default {
         const section = link.getAttribute('section');
         let sectionContainer = document.querySelector('section[section="' + section + '"]');
 
-        if (sectionContainer.offsetTop <= fromTop && sectionContainer.offsetTop + sectionContainer.offsetHeight > fromTop) {
+        if (sectionContainer.offsetTop <= (fromTop && sectionContainer.offsetTop + sectionContainer.offsetHeight > fromTop) + 200) {
           this.active = section;
         }
       });

@@ -5,8 +5,8 @@ const data = ref({
   birthday: "1991-02-27",
   info: [
     { label: "Name", value: "<span class='speed'>Kevin Steven Falencik</span>" },
-    { label: "Birth", value: "27th Feb 1991, Berlin Neukölln" },
-    { label: "Contact", value: "<span class='speed'>kfalencik@gmail.com</span> or +44 7961276427" },
+    { label: "Birth", value: "1991, Berlin Neukölln" },
+    { label: "E-mail", value: "<span class='speed'>kfalencik@gmail.com</span>" },
   ],
   hobbies: [
     { value: "Music" },

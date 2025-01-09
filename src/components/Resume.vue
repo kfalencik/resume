@@ -86,9 +86,9 @@ const age = computed(() => {
       <img src="~assets/images/arrow.png" width="100" role="presentation" alt="" />
       <p>
         Not long after this incident, my parents had a brilliant idea to enrol me in one of those
-        <span class="speed">"Learn how to use the computer"</span> courses.hese courses primarily involved playing the
-        <span class="speed">pinball game on Windows XP</span> (oh the good old days), as well as my first introduction to the internet and, more importantly, 
-        the godlike web language - <span class="speed">HTML</span>. I was
+        <span class="speed">"Learn how to use the computer"</span> courses. This course consisted primarily of me playing the
+        <span class="speed">pinball game on Windows XP</span> (oh the good old days), but more importantly my first introduction to the internet as well as,
+        the godlike language named <span class="speed">HTML</span>. I was
         immediately hooked. With a couple of lines of code, I can put together a very basic but real website!
       </p>
       <p>

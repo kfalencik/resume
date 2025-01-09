@@ -11,7 +11,7 @@ const data = ref({
   hobbies: [
     { value: "Music" },
     { value: "Cycle" },
-    { value: "Guitar" },
+    { value: "Play on guitar" },
     { value: "Movies and books" },
     { value: "Art galleries" },
     { value: "Video and board games" },
@@ -73,13 +73,13 @@ const age = computed(() => {
       <h3 class="h3">My story.</h3>
       <img src="~assets/images/lightbulb.png" width="120" role="presentation" alt="" />
       <p>
-        Shortly after I was born my parents decided to move back to Poland, where I spent most of my life.
-        <span class="speed">Growing up</span> I remember always being very curious about computers and how they work. I
-        have a very vivid memory of my <span class="speed">8-year-old-self</span> sitting in front of our very
+        Shortly after my birth, my parents decided to relocate back to Poland, where I spent most of my childhood.
+        <span class="speed">Growing up</span>, I was always fascinated by computers and their inner workings. I
+        have a very vivid memory of my <span class="speed">8-year-old self</span> sitting in front of our very
         <span class="speed">first family computer</span>, trying to open some of the files in "Windows" directory and
-        deleting them cause I thought it would speed-up the computer (these are unreadable garbage anyways!) until
-        <span class="speed">it died</span>. That's when I experienced my first <span class="speed">blue-screen</span>, a
-        lot of dad's shouting and a week ban for the computer but
+        deleting them in an attempt to speed up the computer (these are unreadable garbage anyways!) Unfortunately, very quickly
+        <span class="speed">it crashed</span>. That's when I experienced my first <span class="speed">blue-screen</span>, a
+        lot of father's shouting and a week-long ban on using the computer but despite that,
         <span class="speed">my curiosity grew even larger</span>.
       </p>
 

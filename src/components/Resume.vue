@@ -37,18 +37,17 @@ const age = computed(() => {
       <img src="~assets/images/lightning.png" width="100" role="presentation" alt="" />
       <h2 class="h2">Hi! I'm Kevin Falencik</h2>
       <p>
-        I'm a {{ age }} years old, Polish <del>bug</del>
+        I'm a {{ age }} years old Polish <del>bug</del>
         <span class="speed"><strong>front-end</strong> developer</span>, living in Edinburgh, Scotland.
       </p>
       <p>
         I created this <span class="speed">resume</span> especially for <del>myself</del> <strong>you!</strong>
-        <del> so I can BRAG</del> so you can learn about me.
+        <del> so I can BRAG</del> so you can learn more about me.
       </p>
       <p>
-        I Hope you find everything you would like to know but if you
-        <span class="speed">still have any questions</span> drop me a
-        <a class="speed" href="mailto:kfalencik@gmail.com">message</a>. There is more information at the bottom about
-        how the site works if you want to check it out.
+         I hope you find everything you’re looking for, but if you 
+        <span class="speed">have any questions</span> drop me a
+        <a class="speed" href="mailto:kfalencik@gmail.com">message</a>. There’s more information at the bottom about how the site works if you want to check that out.
       </p>
       <p>* highlighted, in <span class="speed">yellow</span>, for speed-reading.</p>
       <img src="~assets/images/loading.png" width="140" role="presentation" alt="" />

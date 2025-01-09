@@ -207,7 +207,7 @@ const age = computed(() => {
         <span class="speed">Nuxt.js</span> framework, which I love using for most of my side projects. Nuxt.js is sort
         of a Vue.js on steroids. It contains pretty much everything you need to create a Vue.js website including
         routing, a store that you can use to easily send and receive data beteen components, development server and also
-        server-side rendering which is great for SEO!
+        server-side rendering which is great for SEO! (Feel free to take a look at this project on <a href="https://github.com/kfalencik/resume" target="_blank">github</a>)
       </p>
       <p>
         For styling I'm using <span class="speed">SASS</span>, and <span class="speed">BEM</span> naming convention for

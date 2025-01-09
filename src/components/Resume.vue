@@ -158,7 +158,7 @@ const age = computed(() => {
         <strong>Kin+Carta (former AmazeRealise) - Mar 2018 - Mar 2020</strong>
         <p><span class="speed">Front end developer</span></p>
         <p>
-          At AmazeRealise I had the great pleasure of working on much bigger client projects including Expedia, Lexus,
+          At AmazeRealise I had the great pleasure of <span class="speed">working on much bigger client projects</span> including Expedia, Lexus,
           Unilever, Lloyds Banking Group, Franklin Templeton, Heathrow airport and many more. I have gained a lot of
           front end knowledge thanks to project variety and a great supportive team.
         </p>
@@ -175,8 +175,8 @@ const age = computed(() => {
           My first job after moving to Edinburgh. Thanks to the small size of the agency I was involved in a great
           number of very <span class="speed">creative and innovative</span> projects. My role in the company has changed
           throughout the years, starting as a contractor, being a junior developer and ending with the role of a lead
-          developer. I developed web applications using Drupal 7 and Wordpress but also managed a small team of
-          developers. This role involved maintaining constant communication with the client via email and phone.
+          developer. I developed web applications using Drupal 7 and Wordpress but also <span class="speed">managed a small team of
+          developers</span>. This role involved maintaining constant communication with the client via email and phone.
         </p>
         <p>Tech stack: PHP 5 & 7, Drupal 7, Wordpress, CSS, SASS, GIT, WAMP, LAMP, MySQL, jQuery, AcquiaDevTools</p>
       </article>
